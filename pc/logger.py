@@ -1,6 +1,6 @@
 """Empfängt die 50-Hz-Daten des umgeflashten Shelly EM Gen3 und schreibt sie als CSV.
 
-Aufruf:  python logger.py <name> [--ref 192.168.178.33]
+Aufruf:  python logger.py <name> --esp <IP des EM Gen3> [--ref <IP eines Shelly Plug>]
   --ref   IP eines Shelly Plug (Stock-Firmware), der dasselbe Werkzeug misst.
           Liefert die 1-Hz-Vergleichskurve und die Kalibrierung.
 Tasten (Enter drücken): a = Kanal A, b = Kanal B, burst = Rohkurve aufnehmen, q = Ende
