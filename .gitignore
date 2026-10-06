@@ -1,0 +1,6 @@
+firmware/include/secrets.h
+firmware/.pio/
+data/
+pc/__pycache__/
+pc/bibliothek.json
+pc/cmd.txt
